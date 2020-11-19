@@ -1,0 +1,49 @@
+<?php
+namespace {namespace};
+
+trait {classname}Trait {
+
+
+    protected static
+        $mapping = {mapping};
+
+    protected
+        $formfields = {form_fields};
+
+    protected
+        $default_rules = {default_rules};
+
+    protected
+        $default_messages = [];
+
+    public static function map() {
+        $mapping = self::$mapping;
+
+        return $mapping;
+    }
+
+
+    public function getFormFields() {
+        $fields = $this->formfields;
+
+        return $fields;
+    }
+
+    /**
+     * 验证规则
+     * @return array
+     */
+    public function rules()
+    {
+        return $this->default_rules;
+    }
+
+    /**
+     * 验证规则错误提示
+     * @return array
+     */
+    public function messages()
+    {
+        return [];
+    }
+}

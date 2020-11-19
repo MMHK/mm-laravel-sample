@@ -1,0 +1,102 @@
+.sb-admin-2 {
+  @import "sb-admin-2/dist/css/sb-admin-2";
+}
+
+.sb-admin-2 {
+  .m-b {
+    margin-bottom: 15px;
+  }
+
+  .m-b-md {
+    margin-bottom: 20px;
+  }
+
+  .m-b-lg {
+    margin-bottom: 30px;
+  }
+
+  .m-b-xl {
+    margin-bottom: 40px;
+  }
+
+  .m-b-none {
+    margin-bottom: 0;
+  }
+
+  .m-t {
+    margin-top: 15px;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .tab-pane {
+    padding-top: 20px;
+  }
+
+  .ibox-heading {
+    position: relative;
+  }
+
+  .font-bold h6 {
+    font-weight: 600;
+  }
+
+  .font-bold {
+    font-weight: 600;
+  }
+
+  .error {
+    outline-color: #ed5565;
+    border: 2px solid #ed5565;
+  }
+
+  .product-edit-wrap {
+    position: relative;
+    margin-top: 1em;
+  }
+  .navbar-top-btns {
+    padding: 0 1em;
+  }
+  .sku-item, .product-image-item {
+    position: relative;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 1em;
+  }
+  .sku-item .btn-danger,
+  .product-image-item .btn-danger{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 20;
+  }
+  .checkbox-label {
+    display: block;
+    width: auto;
+    cursor: pointer;
+  }
+  .checkbox-label > input {
+    vertical-align: middle;
+  }
+
+  .product-list .product-img {
+    width: 5em;
+  }
+  .banner-list .img-responsive {
+    max-width: 8em;
+  }
+  .order-list .order-search {
+    min-width: 450px;
+  }
+  @media (max-width: 768px) {
+    .order-list .order-search {
+      min-width: 100%;
+    }
+  }
+
+  .modal.fade.in {
+    display: block;
+  }
+}

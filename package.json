@@ -1,0 +1,83 @@
+{
+    "name": "mmhk-laravel-sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "public/index.php",
+    "scripts": {
+        "build": "cross-env NODE_ENV=production webpack",
+        "serve": "cross-env NODE_ENV=development webpack --watch"
+    },
+    "author": "MMHK",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/plugin-transform-runtime": "^7.10.3",
+        "@babel/plugin-transform-template-literals": "^7.10.3",
+        "@babel/preset-env": "^7.6.3",
+        "@babel/runtime": "^7.10.4",
+        "@intervolga/optimize-cssnano-plugin": "^1.0.6",
+        "assert": "^2.0.0",
+        "autoprefixer": "^9.6.5",
+        "babel-loader": "^8.0.6",
+        "clean-webpack-plugin": "^3.0.0",
+        "core-js": "3",
+        "cross-env": "^7.0.2",
+        "css-loader": "^3.2.0",
+        "expose-loader": "^1.0.0",
+        "file-loader": "^4.2.0",
+        "fontmin-webpack": "^2.0.5",
+        "glob": "^7.1.4",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "inquirer": "^7.3.3",
+        "loader-utils": "^1.2.3",
+        "mini-css-extract-plugin": "^0.8.0",
+        "mocha": "^6.2.2",
+        "mocha-logger": "^1.0.6",
+        "node-sass": "^4.12.0",
+        "node-ssi": "^0.3.2",
+        "postcss-loader": "^3.0.0",
+        "prompt": "^1.0.0",
+        "raw-loader": "^3.1.0",
+        "sass-loader": "^8.0.0",
+        "string.prototype.matchall": "^4.0.0",
+        "style-loader": "^1.0.0",
+        "url-loader": "^2.2.0",
+        "vue-loader": "^15.7.1",
+        "vue-template-compiler": "^2.6.10",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9",
+        "webpack-dev-server": "^3.8.2"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "bootstrap": "3.3.7",
+        "font-awesome": "4.6.3",
+        "jquery": "^3.4.1",
+        "jquery.inputmask": "^3.3.4",
+        "metismenu": "^3.0.6",
+        "normalize-scss": "^7.0.1",
+        "plupload": "^2.3.6",
+        "sb-admin-2": "^3.3.8",
+        "trumbowyg": "^2.21.0",
+        "vee-validate": "^2.2.15",
+        "vue": "^2.6.10",
+        "vue-plupload": "^2.1.1",
+        "xlsx": "^0.16.8"
+    },
+    "browserslist": [
+        "last 5 version",
+        "> .5%",
+        "ie 11"
+    ],
+    "package": {
+        "name": "mmhk/mm-laravel-sample",
+        "version": "1.0.0",
+        "source": {
+            "url": "https://github.com/MMHK/mm-laravel-sample.git",
+            "type": "git",
+            "reference": "master"
+        }
+    }
+}
