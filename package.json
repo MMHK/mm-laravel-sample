@@ -70,14 +70,5 @@
         "last 5 version",
         "> .5%",
         "ie 11"
-    ],
-    "package": {
-        "name": "mmhk/mm-laravel-sample",
-        "version": "1.0.0",
-        "source": {
-            "url": "https://github.com/MMHK/mm-laravel-sample.git",
-            "type": "git",
-            "reference": "master"
-        }
-    }
+    ]
 }
