@@ -1,11 +1,15 @@
 {
-    "package": {
-        "name": "mmhk/mm-laravel-sample",
-        "version": "1.0.0",
-        "source": {
-            "url": "https://github.com/MMHK/mm-laravel-sample.git",
-            "type": "git",
-            "reference": "master"
+    "packages": {
+        "mmhk/mm-laravel-sample": {
+            "1.0.0": {
+                "name": "mmhk/mm-laravel-sample",
+                "version": "1.0.0",
+                "source": {
+                    "url": "https://github.com/MMHK/mm-laravel-sample.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
         }
     }
 }

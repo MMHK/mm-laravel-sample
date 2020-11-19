@@ -59,8 +59,8 @@ class AppServiceProvider extends ServiceProvider
         /**
          * 修复 MYSQL 5.7 JSON类型识别问题
          */
-        \DB::getDoctrineSchemaManager()
-            ->getDatabasePlatform()
-            ->registerDoctrineTypeMapping('json', 'text');
+        // \DB::getDoctrineSchemaManager()
+            // ->getDatabasePlatform()
+            // ->registerDoctrineTypeMapping('json', 'text');
     }
 }
