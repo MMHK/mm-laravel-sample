@@ -1,12 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "mmhk/mm-laravel-sample",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The template laravel project for MMHK",
     "keywords": [
         "framework",
         "laravel"
     ],
-    "license": "MIT",
+    "license": "Apache-2.0",
     "require": {
         "php": "^7.2.5|^8.0",
         "fideloper/proxy": "^4.4",
